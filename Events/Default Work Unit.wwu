@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E473739-110A-4A2B-AF45-B7E792C78005}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8E473739-110A-4A2B-AF45-B7E792C78005}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="FS_Play" ID="{FEB9F713-AAB7-40CE-847B-AD3282CDF230}">
+					<ChildrenList>
+						<Action Name="" ID="{FDF7B28C-F366-49E4-BB6E-26F08DB80599}" ShortID="421464071">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{30229ABC-E9B9-48FC-A78B-67288E3189FF}" WorkUnitID="{4ADAC554-99BD-4F07-99F4-D491A56D7BD8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{081F1466-12FE-4DFE-A26A-B774E8531829}">
+					<ChildrenList>
+						<Action Name="" ID="{1EC7EA20-0F2E-4553-826B-FD03ACA2D48E}" ShortID="296527179">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music2" ID="{1B9A461C-C9BD-4F36-B185-831CB666E4A4}" WorkUnitID="{039F18BE-FC93-4BEA-A92A-37FBEB415254}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3FC6FD05-7D19-4D53-9AEB-E3ED526B712B}" ShortID="593375284">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{B98A3491-1A23-4AB4-82A8-C8CA9A142305}" WorkUnitID="{039F18BE-FC93-4BEA-A92A-37FBEB415254}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B7360DD5-CE75-41A3-9512-3C08EE3A71E5}" ShortID="1386392">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music 3" ID="{2C9DD03E-3F87-4731-AC58-B110F75DFF70}" WorkUnitID="{039F18BE-FC93-4BEA-A92A-37FBEB415254}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Interactive_Unreal" ID="{F43C75E3-BC9E-4FE5-B600-8A17FEA01918}">
+					<ChildrenList>
+						<Action Name="" ID="{BAF879B4-49DA-4453-A0EF-29317F8546B2}" ShortID="779328465">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Interactive" ID="{EF6649EC-7C0F-4A16-8DFC-82DE8225CF54}" WorkUnitID="{039F18BE-FC93-4BEA-A92A-37FBEB415254}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stac" ID="{22BF56F6-86E1-414E-AF85-C9BAE7C78CE1}">
+					<ChildrenList>
+						<Action Name="" ID="{710B7A8B-8738-463A-82F7-97149B5713CB}" ShortID="813063367">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stackkks" ID="{1F301650-3CCD-474B-8FCC-B957FF0223F9}" WorkUnitID="{039F18BE-FC93-4BEA-A92A-37FBEB415254}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

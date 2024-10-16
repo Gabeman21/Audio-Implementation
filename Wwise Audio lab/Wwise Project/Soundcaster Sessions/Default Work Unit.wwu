@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20BCA61A-D154-449D-8207-EF9EF5D8D0FD}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{20BCA61A-D154-449D-8207-EF9EF5D8D0FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{15C6B6E2-94AB-4CEC-928D-7E3B1E4FA969}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="FirstPerson" ID="{3595F519-5F5B-4401-AD56-BEED0D5AC609}" WorkUnitID="{ADEE1C8D-95E8-4297-973A-6C1395A44B42}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ThirdPerson" ID="{6758FB9E-76D6-42DE-A2B0-EE031329989B}" WorkUnitID="{ADEE1C8D-95E8-4297-973A-6C1395A44B42}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Radio" ID="{6DB5B518-94D0-4E9E-9937-6AC7FDFB670D}" WorkUnitID="{5D930F2C-27AA-4E44-983C-77E0029717BE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Weapon Fire SW" ID="{58E6852A-7680-4EA9-812A-C7A3CA2EFE7C}" WorkUnitID="{491F35F7-D8A2-4804-8237-56DBB97164F3}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mezzanine2" ID="{49C5427B-30AD-40AC-8054-4FC1E0B69A06}" WorkUnitID="{ADEE1C8D-95E8-4297-973A-6C1395A44B42}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Footsteps_Speed" ID="{673850B9-4515-4154-AC3D-F0718EE38F22}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="AstrolabeSize" ID="{C0570A08-74D9-4389-8617-63A911EF0850}"/>
+							<Value>5000</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="LateReverb" ID="{6B25E302-5ECF-445A-91A4-C9D80D0EA4FF}"/>
+							<Value>0.971602434077079</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Fire_Distance" ID="{F1B9C19D-DF59-4742-A907-406D53E31C26}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ball_Rebound_Elevation" ID="{1395B58F-9EB1-4836-A058-59A86C5F81F5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ocean_Distance" ID="{2168FDAE-C128-4A90-8D80-38CB07C4DCA6}"/>
+							<Value>70</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ball_Rebound_Angle" ID="{DFE04A3E-F6A7-4B1E-82A6-A9F0CE43572D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DynamicER" ID="{7A4F77EC-E9B9-4BC4-A72F-2847A8208EB2}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="AmbisonicsQuad" ID="{C397C7B6-0F1F-4E1C-9AC7-AAB57FE699C2}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ball_Rebound_Velocity" ID="{3ABAF753-FE8B-4FBA-B231-1F6EA502DB15}"/>
+							<Value>1</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{CB2739CA-4D1F-4E7B-A42D-13E6AE562E62}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Run" ID="{C2A1D91C-7A83-4A44-91E3-B505BAE4BA01}"/>
+						<CurrentSwitchRef Name="Glass" ID="{1CFFA170-C6EC-4E65-82DD-C3502FC500A3}"/>
+						<CurrentSwitchRef Name="Closing" ID="{01389A70-D1E8-4E6F-9CEA-D605DDB9CD33}"/>
+						<CurrentSwitchRef Name="Designed" ID="{00D9BAF2-9EED-401B-BEAF-2E594E01DC8F}"/>
+						<CurrentSwitchRef Name="Campfire" ID="{372AE7B1-C1BB-47D6-B176-1801955FC7CA}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{7C1BD82A-FD9D-41CE-BE21-45A22AEE073C}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

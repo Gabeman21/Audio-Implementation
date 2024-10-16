@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ECB07DD0-C137-4CC6-91C0-288AAB94F40C}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{ECB07DD0-C137-4CC6-91C0-288AAB94F40C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Locomotion_type" ID="{F8ACDB02-90C5-4ED6-B4CA-0E7EF2AD3DBC}">
+					<ChildrenList>
+						<Switch Name="Running" ID="{5DE474D6-AA87-4582-96FD-B422DBF1A3A0}"/>
+						<Switch Name="Walking" ID="{3A60C3C0-5DFA-46B9-BECF-EF7539102420}"/>
+						<Switch Name="Sprint" ID="{A5EF257A-12DC-474C-A2DF-51C6612B542A}"/>
+						<Switch Name="Sneak" ID="{1920CD33-1B8B-471F-8250-CD7432ED97E5}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Footstepmaterial_type" ID="{A8F5E1A0-6FB6-4C60-A9F9-E7A4047AB7EF}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{1E266557-5BE3-41D3-9DF5-9F9B65EF7703}"/>
+						<Switch Name="Rock" ID="{193847C6-9BEE-4F91-AA90-C46A44AF1250}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="GroundWetnessSwitches" ID="{18ED7861-BC0D-4493-A52B-A0358C413AF8}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Dry" ID="{CA189500-CB32-4735-AA67-B6353997D157}"/>
+						<Switch Name="Wet" ID="{C5523BD9-2C3E-4B81-946D-9CFD757A00F3}"/>
+						<Switch Name="Soaked" ID="{CC1F68CE-F8A4-456F-B6D3-A9903F4A6646}"/>
+						<Switch Name="Dump" ID="{BC203755-434A-4AF1-9CA4-47C4EC4F2ADD}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Material_type" ID="{7A33869B-0D53-442B-9016-5FD2241296D2}"/>
+						<Curve Name="" ID="{3F8DCCFC-1B7D-42A5-BFA3-A114F3A73F72}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>25.2765</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>54.941949</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>68.294655</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>90</XPos>
+									<YPos>4</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

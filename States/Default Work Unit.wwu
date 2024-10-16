@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F1A9F24F-27D0-4587-8F9E-FA858F7331BB}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{F1A9F24F-27D0-4587-8F9E-FA858F7331BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Game_Status" ID="{89E4872C-C3B4-432B-85C8-1DAC26F1A2F7}">
+					<ChildrenList>
+						<State Name="None" ID="{18338F8C-5228-4A83-B5AC-8D7C2DF5799C}"/>
+						<State Name="Alive" ID="{2353BC82-BB7C-49FF-A685-A95C8C93386D}"/>
+						<State Name="Dead" ID="{5D15A3E1-281D-4CFC-BEC3-717A91583C68}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Room_State" ID="{53F382B5-2A77-4B72-85F0-91689C46A69E}">
+					<ChildrenList>
+						<State Name="None" ID="{6C705A43-FD4F-4D3A-9818-333C485F1AF2}"/>
+						<State Name="Indoor" ID="{D2E7CFE1-710E-41D0-954D-E294E94577E1}"/>
+						<State Name="Outdoor" ID="{4FC02424-AC68-48E7-B35E-09DED21FE131}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Area_state" ID="{A316E7E8-A2FF-428E-B038-098528E483C5}">
+					<ChildrenList>
+						<State Name="None" ID="{C9B0C573-AB50-4E58-B77A-CC5DA4E9017E}"/>
+						<State Name="FarmlandArea1" ID="{2CE43F5E-CE75-44AF-A8DC-6836634BFBB4}"/>
+						<State Name="FarmlandArea2" ID="{614F5FD1-431A-4059-98A9-6A0814F8C483}"/>
+						<State Name="FarmlandArea3" ID="{12D47C17-5C58-4346-823F-9FCC2CBBDBE7}"/>
+						<State Name="FarmlandArea4" ID="{1C23E2A9-A755-49D7-AF41-7C9AE9C75D35}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Tunnel" ID="{E24E9FE3-7CF8-435D-B0E2-82F8F4EFED88}">
+					<ChildrenList>
+						<State Name="None" ID="{454447FF-BF8D-4D06-863D-D874BD6F573F}"/>
+						<State Name="On" ID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+						<State Name="Off" ID="{92C66735-717B-41DA-A241-8C0970798B42}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{454447FF-BF8D-4D06-863D-D874BD6F573F}"/>
+							<EndState Name="On" ID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Music" ID="{A4383945-E03A-4B10-A1BE-5E2E6938F270}">
+					<ChildrenList>
+						<State Name="None" ID="{C7DB1558-5CD4-44C5-BC1F-D875538363F1}"/>
+						<State Name="Ambient" ID="{53AF2F66-7FC6-48C7-8AAB-D896211DC8CC}"/>
+						<State Name="Combat" ID="{EF8092B0-A8B4-4A28-88DA-DEDB83297C3C}"/>
+						<State Name="Death" ID="{7C7C459A-515F-4331-812B-DB364595573A}"/>
+						<State Name="Victory" ID="{3A7286E3-E982-436E-860D-B79A87295B7C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Facility_StackoBot" ID="{E6A9C5A9-8C55-4ED2-AE40-A90D691156D1}">
+					<ChildrenList>
+						<State Name="None" ID="{B3BB6709-4DB3-49BE-9B7F-0DA14D868702}"/>
+						<State Name="Intro" ID="{4351EE2A-3C8C-4BDF-97D6-A9C1C74FF502}"/>
+						<State Name="Combat" ID="{4807C893-2282-4B41-B182-ED4694EF782E}"/>
+						<State Name="Death" ID="{2284CD8D-6C25-470B-9076-585DEB899D93}"/>
+						<State Name="Journey" ID="{0B7BC6B9-DB94-47A8-938E-275D838BDA06}"/>
+						<State Name="Spawn" ID="{140BE53B-4670-44BF-983F-45BD744248B6}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_Interaction_Unreal" ID="{3512F239-530F-469C-9E26-D2BB8B6838FE}">
+					<ChildrenList>
+						<State Name="None" ID="{051CDFE0-AE47-49F1-A5D7-84412A0667C7}"/>
+						<State Name="Ambient" ID="{BCD92371-BDA4-44CC-8719-F9E2332FA4D0}"/>
+						<State Name="Combat" ID="{08A5218E-67D2-4612-9043-D49A8E5FE58E}"/>
+						<State Name="Death" ID="{87954516-8259-4990-A0B7-02D81BB79DD8}"/>
+						<State Name="Victory" ID="{6C0F5713-A295-4561-A485-EA0F901CFD65}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3400062578" Type="Bus" GUID="{0642CEE5-1567-492A-8F97-BD018E1603F1}" Language="SFX" Hash="{0D371F5E-72E2-22FA-B513-39C7D3AF5732}">
+			<ObjectPath>Tunnel_Reverb</ObjectPath>
+			<ShortName>Tunnel_Reverb</ShortName>
+			<Path>Bus/34/Tunnel_Reverb.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="227602803" Name="Delay (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb\[Effect Slot [2]: (Delay)]\Delay (Custom)" GUID="{DBD48945-73D7-49FA-9D2E-17CFFB4A3CCC}" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="742287479" Name="Room_reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb\[Effect Slot [0]: (RoomVerb)]\Room_reverb (Custom)" GUID="{DDAB7997-0F9A-4181-AB82-BC15D6942FBC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="778304905" Name="Stereo Delay (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb\[Effect Slot [1]: (Stereo Delay)]\Stereo Delay (Custom)" GUID="{00D4772A-58E1-48FD-A96A-CDED6543AAAB}" LibName="Wwise Stereo Delay" LibId="8847363"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="3400062578" Name="Tunnel_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb" GUID="{0642CEE5-1567-492A-8F97-BD018E1603F1}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="227602803"/>
+							<PluginRef Id="742287479"/>
+							<PluginRef Id="778304905"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="3059984139" Name="Tunnel" ObjectPath="\States\Default Work Unit\Tunnel" GUID="{E24E9FE3-7CF8-435D-B0E2-82F8F4EFED88}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Tunnel\None" GUID="{454447FF-BF8D-4D06-863D-D874BD6F573F}"/>
+						<State Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Tunnel\Off" GUID="{92C66735-717B-41DA-A241-8C0970798B42}"/>
+						<State Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Tunnel\On" GUID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F9C61B62-A28E-8A79-F7F4-E6E991809A3B}</FileHash>
+</SoundBanksInfo>

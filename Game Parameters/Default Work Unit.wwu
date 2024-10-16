@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{56C75317-9140-44BC-B617-849473188AF5}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{56C75317-9140-44BC-B617-849473188AF5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Step_blender" ID="{45775019-D4E7-44C9-ACEC-A6FEA8406372}"/>
+				<GameParameter Name="Material_type" ID="{7A33869B-0D53-442B-9016-5FD2241296D2}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="90"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_PlayerSpeed" ID="{D79C1226-940A-4F88-896D-6D3A61F30095}"/>
+				<GameParameter Name="RTPC_TimeoftheDay" ID="{122E3D1C-F11B-402B-A859-D4B2DF73A0B3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="12"/>
+						<Property Name="Max" Type="Real64" Value="12"/>
+						<Property Name="Min" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_RainAMount" ID="{A5C238C1-0539-4B70-BFE4-A2790175FE9F}"/>
+				<GameParameter Name="Distance_from_object" ID="{097094B8-4419-426B-B2C8-B6269498BF7D}"/>
+				<GameParameter Name="Fade_out_reverb" ID="{BA6847A7-1001-4E4C-AC6E-7BC178269269}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

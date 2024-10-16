@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3260736504" Type="User" GUID="{3F17EA71-1854-45A7-8C8C-AF2C12DDE3BF}" Language="SFX" Hash="{D62D2384-26C8-CCBD-60C2-F78502401581}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Stac</ObjectPath>
+			<ShortName>Music_Stac</ShortName>
+			<Path>Music_Stac.bnk</Path>
+			<Media>
+				<File Id="157850563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stack_Spawn_1.wav</ShortName>
+					<CachePath>SFX/Stack_Spawn_1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="257463470" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stack O Bot_Journey_Prophet.wav</ShortName>
+					<CachePath>SFX/Stack O Bot_Journey_Prophet_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="393973450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stack O Bot_Journey_Bass.wav</ShortName>
+					<CachePath>SFX/Stack O Bot_Journey_Bass_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="475284385" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stack_AmbMix_Arp.wav</ShortName>
+					<CachePath>SFX/Stack_AmbMix_Arp_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="551284769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stack O Bot_Intro.wav</ShortName>
+					<CachePath>SFX/Stack O Bot_Intro_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="897014840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stack O Bot_Journey_Mix.wav</ShortName>
+					<CachePath>SFX/Stack O Bot_Journey_Mix_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1032372031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stack_Comb_Mix.wav</ShortName>
+					<CachePath>SFX/Stack_Comb_Mix_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1049955487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stack_death_mix1.wav</ShortName>
+					<CachePath>SFX/Stack_death_mix1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1070800222" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stack O Bot_Combat_BassPho.wav</ShortName>
+					<CachePath>SFX/Stack O Bot_Combat_BassPho_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="32095635" Name="Play_Stac" ObjectPath="\Events\Default Work Unit\Play_Stac" GUID="{22BF56F6-86E1-414E-AF85-C9BAE7C78CE1}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="33713465" Id="1125500713" GUID="{4351EE2A-3C8C-4BDF-97D6-A9C1C74FF502}"/>
+							<MediaRefs>
+								<MediaRef Id="551284769"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="33713465" Id="2764240573" GUID="{4807C893-2282-4B41-B182-ED4694EF782E}"/>
+							<MediaRefs>
+								<MediaRef Id="475284385"/>
+								<MediaRef Id="1032372031"/>
+								<MediaRef Id="1070800222"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="33713465" Id="779278001" GUID="{2284CD8D-6C25-470B-9076-585DEB899D93}"/>
+							<MediaRefs>
+								<MediaRef Id="1049955487"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="33713465" Id="3551468019" GUID="{0B7BC6B9-DB94-47A8-938E-275D838BDA06}"/>
+							<MediaRefs>
+								<MediaRef Id="257463470"/>
+								<MediaRef Id="393973450"/>
+								<MediaRef Id="897014840"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="33713465" Id="71202558" GUID="{140BE53B-4670-44BF-983F-45BD744248B6}"/>
+							<MediaRefs>
+								<MediaRef Id="157850563"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="33713465" Name="Facility_StackoBot" ObjectPath="\States\Default Work Unit\Facility_StackoBot" GUID="{E6A9C5A9-8C55-4ED2-AE40-A90D691156D1}">
+					<States>
+						<State Id="71202558" Name="Spawn" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Spawn" GUID="{140BE53B-4670-44BF-983F-45BD744248B6}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Facility_StackoBot\None" GUID="{B3BB6709-4DB3-49BE-9B7F-0DA14D868702}"/>
+						<State Id="779278001" Name="Death" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Death" GUID="{2284CD8D-6C25-470B-9076-585DEB899D93}"/>
+						<State Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Intro" GUID="{4351EE2A-3C8C-4BDF-97D6-A9C1C74FF502}"/>
+						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Combat" GUID="{4807C893-2282-4B41-B182-ED4694EF782E}"/>
+						<State Id="3551468019" Name="Journey" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Journey" GUID="{0B7BC6B9-DB94-47A8-938E-275D838BDA06}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{AFE3BBA1-5011-F725-B6C6-7DBDEEFAAE57}</FileHash>
+</SoundBanksInfo>

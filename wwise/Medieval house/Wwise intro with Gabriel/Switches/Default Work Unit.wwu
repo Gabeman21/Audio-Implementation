@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6DD4831D-EA13-467C-9325-00187262A505}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{6DD4831D-EA13-467C-9325-00187262A505}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Locomotion_type" ID="{F63EA17C-D0D1-4B48-A788-CAB1A33396C6}">
+					<ChildrenList>
+						<Switch Name="Running" ID="{A9F57352-AE49-43AD-99B5-B47A8A920710}"/>
+						<Switch Name="Walking" ID="{B0D9545E-56D3-410E-B1AC-5EF34DF587A2}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="footsteps_material" ID="{4A4B1A45-C059-4FE7-9254-69FE191D4BBE}">
+					<ChildrenList>
+						<Switch Name="grass" ID="{8C950A76-6185-4148-B0BE-A9F240FA7FFD}"/>
+						<Switch Name="rock" ID="{A3BBF1C9-0BA0-4138-B144-B202B914986A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

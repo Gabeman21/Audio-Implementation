@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{886E569F-2771-494F-9AD6-FEECC06C3750}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{886E569F-2771-494F-9AD6-FEECC06C3750}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Playing_Ambience" ID="{94E491A2-F57D-4AD3-BA76-9DBD455F0850}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

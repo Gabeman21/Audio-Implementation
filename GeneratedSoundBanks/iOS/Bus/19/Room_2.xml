@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1941896087" Type="Bus" GUID="{929ECE90-8123-4042-BCDC-7E09D1E1DEF4}" Language="SFX" Hash="{1A37D5B9-860F-DEC2-2C9D-853E2B78E577}">
+			<ObjectPath>Room_2</ObjectPath>
+			<ShortName>Room_2</ShortName>
+			<Path>Bus/19/Room_2.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="206373095" Name="Room_reverb" ObjectPath="\Effects\Default Work Unit\Room_reverb" GUID="{2FC8AEB4-1D71-42EF-8C53-520A80BCC2AD}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1941896087" Name="Room_2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\reverb\Room_2" GUID="{929ECE90-8123-4042-BCDC-7E09D1E1DEF4}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="206373095"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{26DEBEF9-B032-4523-1ACE-1D472AE57327}</FileHash>
+</SoundBanksInfo>

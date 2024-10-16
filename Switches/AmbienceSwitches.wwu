@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EE6B07C6-5CD4-4625-91E3-F4CF4824ED03}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="AmbienceSwitches" ID="{EE6B07C6-5CD4-4625-91E3-F4CF4824ED03}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="AmbBiomType" ID="{61162E81-DCC3-4D2B-8DEA-95A3A423D546}">
+					<ChildrenList>
+						<Switch Name="Forest" ID="{88E051D1-C8FD-4205-8644-F192616E3D1B}"/>
+						<Switch Name="Grassland" ID="{A713BBCC-6E7F-4A94-AFA9-02CCF67BE839}"/>
+						<Switch Name="Mountain" ID="{FF998F7E-F8C8-4437-9648-A32B8D587B55}"/>
+						<Switch Name="Swamp" ID="{66A642CE-ECE9-4B4D-A701-671482A9616A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Time_of_the_day" ID="{98951C0E-B09B-46C6-9382-DD8C36E939FC}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Afternoon" ID="{3C1CFE5D-8678-496E-8743-2479036C86AF}"/>
+						<Switch Name="Evening" ID="{2A62A486-F70F-4080-845B-E1B0BD787E53}"/>
+						<Switch Name="Midday" ID="{C28BA75E-D8F1-4BD4-AC14-A1DB088F16EE}"/>
+						<Switch Name="Morning" ID="{15D62F0C-98A6-43E9-BA32-C5C9A295DAA6}"/>
+						<Switch Name="Night" ID="{3AB8DDC1-7860-4922-B1D3-5E9DB6D1FD6D}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_TimeoftheDay" ID="{122E3D1C-F11B-402B-A859-D4B2DF73A0B3}"/>
+						<Curve Name="" ID="{B03DEBF3-1946-4581-B4CD-1C928DAD7017}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>5</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>3.01026</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>6.04826</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>8.92813</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>11.50308</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>12</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

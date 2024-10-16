@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4759433C-06B1-4EBE-9417-9CAEC7798375}" SchemaVersion="119">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4759433C-06B1-4EBE-9417-9CAEC7798375}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="MainMixing Session" ID="{A9B55984-9539-40AE-BC27-8B173119700E}">
+					<ObjectList>
+						<ObjectRef Name="PlayerMovement" ID="{50F9E7FC-0B95-4E45-8055-621EC0417B06}" WorkUnitID="{4ADAC554-99BD-4F07-99F4-D491A56D7BD8}"/>
+						<ObjectRef Name="PlayerMovement" ID="{50F9E7FC-0B95-4E45-8055-621EC0417B06}" WorkUnitID="{4ADAC554-99BD-4F07-99F4-D491A56D7BD8}"/>
+						<ObjectRef Name="Sneaking" ID="{E8EE9F58-6698-4ECD-BFA0-3333FCB23BA3}" WorkUnitID="{4ADAC554-99BD-4F07-99F4-D491A56D7BD8}"/>
+						<ObjectRef Name="Running" ID="{0DD0AC6F-4553-4513-9250-5CA781090459}" WorkUnitID="{4ADAC554-99BD-4F07-99F4-D491A56D7BD8}"/>
+						<ObjectRef Name="Verb" ID="{89230997-D2A9-4AB3-9BFB-A447F1A9B3C5}" WorkUnitID="{7ACFE0BC-C78C-433F-98DC-BC82466C2D6A}"/>
+						<ObjectRef Name="Tunnel_Reverb" ID="{0642CEE5-1567-492A-8F97-BD018E1603F1}" WorkUnitID="{7ACFE0BC-C78C-433F-98DC-BC82466C2D6A}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

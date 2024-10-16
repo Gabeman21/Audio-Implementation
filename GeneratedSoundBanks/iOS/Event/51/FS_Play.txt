@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	518478193	FS_Play			\Default Work Unit\FS_Play	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	748991833	Locomotion_type			\Default Work Unit\Locomotion_type	
+
+Switch	ID	Name	Switch Group			Notes
+	340271938	Walking	Locomotion_type			
+	1296465089	Sprint	Locomotion_type			
+	2884887403	Sneak	Locomotion_type			
+	3863236874	Running	Locomotion_type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3979687176	Area_state			\Default Work Unit\Area_state	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Area_state			
+	1423669920	FarmlandArea3	Area_state			
+	1423669921	FarmlandArea2	Area_state			
+	1423669922	FarmlandArea1	Area_state			
+	1423669927	FarmlandArea4	Area_state			
+

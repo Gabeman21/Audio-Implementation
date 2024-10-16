@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="518478193" Type="Event" GUID="{FEB9F713-AAB7-40CE-847B-AD3282CDF230}" Language="SFX" Hash="{3421775A-70F3-B793-ABAC-82EC6D4CC576}">
+			<ObjectPath>FS_Play</ObjectPath>
+			<ShortName>FS_Play</ShortName>
+			<Path>Event/51/FS_Play.bnk</Path>
+			<Events>
+				<Event Id="518478193" Name="FS_Play" ObjectPath="\Events\Default Work Unit\FS_Play" GUID="{FEB9F713-AAB7-40CE-847B-AD3282CDF230}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="748991833" Name="Locomotion_type" ObjectPath="\Switches\Default Work Unit\Locomotion_type" GUID="{F8ACDB02-90C5-4ED6-B4CA-0E7EF2AD3DBC}">
+					<Switches>
+						<Switch Id="340271938" Name="Walking" ObjectPath="\Switches\Default Work Unit\Locomotion_type\Walking" GUID="{3A60C3C0-5DFA-46B9-BECF-EF7539102420}"/>
+						<Switch Id="1296465089" Name="Sprint" ObjectPath="\Switches\Default Work Unit\Locomotion_type\Sprint" GUID="{A5EF257A-12DC-474C-A2DF-51C6612B542A}"/>
+						<Switch Id="2884887403" Name="Sneak" ObjectPath="\Switches\Default Work Unit\Locomotion_type\Sneak" GUID="{1920CD33-1B8B-471F-8250-CD7432ED97E5}"/>
+						<Switch Id="3863236874" Name="Running" ObjectPath="\Switches\Default Work Unit\Locomotion_type\Running" GUID="{5DE474D6-AA87-4582-96FD-B422DBF1A3A0}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{17EDD6EF-2CFB-537C-426A-E5A9EB2E406A}</FileHash>
+</SoundBanksInfo>

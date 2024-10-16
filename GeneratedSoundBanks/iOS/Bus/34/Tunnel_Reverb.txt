@@ -1,0 +1,16 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3059984139	Tunnel			\Default Work Unit\Tunnel	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Tunnel			
+	930712164	Off	Tunnel			
+	1651971902	On	Tunnel			
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3400062578	Tunnel_Reverb			\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	227602803	Delay (Custom)	Wwise Delay			
+	742287479	Room_reverb (Custom)	Wwise RoomVerb			
+	778304905	Stereo Delay (Custom)	Wwise Stereo Delay			
+

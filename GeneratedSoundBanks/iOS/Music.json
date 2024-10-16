@@ -1,0 +1,116 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "iOS",
+  "BasePlatform": "iOS",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "Type": "User",
+    "GUID": "{D84B1343-C5D8-41D3-A6D0-03B254CFEA15}",
+    "Language": "SFX",
+    "Hash": "{6334688A-5B30-478F-CF7E-1B5F6907FCBA}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "Media": [
+     {
+      "Id": "94830597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Game - Kombat.wav",
+      "CachePath": "SFX/Game - Kombat_FBC78EF0.wem"
+     },
+     {
+      "Id": "109682271",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Game - Ambience.wav",
+      "CachePath": "SFX/Game - Ambience_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{081F1466-12FE-4DFE-A26A-B774E8531829}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "77978275",
+         "GUID": "{53AF2F66-7FC6-48C7-8AAB-D896211DC8CC}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "109682271"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "2764240573",
+         "GUID": "{EF8092B0-A8B4-4A28-88DA-DEDB83297C3C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "94830597"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\States\\Default Work Unit\\Music",
+      "GUID": "{A4383945-E03A-4B10-A1BE-5E2E6938F270}",
+      "States": [
+       {
+        "Id": "77978275",
+        "Name": "Ambient",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Ambient",
+        "GUID": "{53AF2F66-7FC6-48C7-8AAB-D896211DC8CC}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\None",
+        "GUID": "{C7DB1558-5CD4-44C5-BC1F-D875538363F1}"
+       },
+       {
+        "Id": "779278001",
+        "Name": "Death",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Death",
+        "GUID": "{7C7C459A-515F-4331-812B-DB364595573A}"
+       },
+       {
+        "Id": "2716678721",
+        "Name": "Victory",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Victory",
+        "GUID": "{3A7286E3-E982-436E-860D-B79A87295B7C}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\Music\\Combat",
+        "GUID": "{EF8092B0-A8B4-4A28-88DA-DEDB83297C3C}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D2355AD4-954E-1AD4-4869-D95DCB123A04}"
+ }
+}

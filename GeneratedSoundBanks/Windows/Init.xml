@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{4CD96D5E-C32E-337F-0DF8-5707B4CC66EF}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="227602803" Name="Delay (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb\[Effect Slot [2]: (Delay)]\Delay (Custom)" GUID="{DBD48945-73D7-49FA-9D2E-17CFFB4A3CCC}" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="742287479" Name="Room_reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb\[Effect Slot [0]: (RoomVerb)]\Room_reverb (Custom)" GUID="{DDAB7997-0F9A-4181-AB82-BC15D6942FBC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="778304905" Name="Stereo Delay (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb\[Effect Slot [1]: (Stereo Delay)]\Stereo Delay (Custom)" GUID="{00D4772A-58E1-48FD-A96A-CDED6543AAAB}" LibName="Wwise Stereo Delay" LibId="8847363"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="206373095" Name="Room_reverb" ObjectPath="\Effects\Default Work Unit\Room_reverb" GUID="{2FC8AEB4-1D71-42EF-8C53-520A80BCC2AD}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{31DE75F3-3585-4689-802F-EE855BA171D0}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{19444DEC-CB16-4368-B952-8F68C8F70311}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="348963605" Name="reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\reverb" GUID="{4AFB4655-8B32-49E1-9DF1-DF954397A72F}"/>
+				<Bus Id="1695690031" Name="Objects" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Objects" GUID="{16B6EAAD-5CD4-436A-96C3-AAAD95A941F8}"/>
+				<Bus Id="2016903052" Name="Boxes" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Boxes" GUID="{2F01AB21-0666-4D8C-9F01-8DF88C5079F4}"/>
+				<Bus Id="2385628198" Name="Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Footsteps" GUID="{60D13D41-CC63-4E0B-BC34-6F5CB0F686CD}">
+					<AuxBusRefs>
+						<AuxBusRef Id="3400062578" Name="Tunnel_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb" GUID="{0642CEE5-1567-492A-8F97-BD018E1603F1}"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="3657263530" Name="Verb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb" GUID="{89230997-D2A9-4AB3-9BFB-A447F1A9B3C5}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1941896084" Name="Room_1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\reverb\Room_1" GUID="{47AF8553-5BE4-430D-B9FF-AD4F79FFC25C}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="206373095"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1941896087" Name="Room_2" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\reverb\Room_2" GUID="{929ECE90-8123-4042-BCDC-7E09D1E1DEF4}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="206373095"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3400062578" Name="Tunnel_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb" GUID="{0642CEE5-1567-492A-8F97-BD018E1603F1}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="227602803"/>
+							<PluginRef Id="742287479"/>
+							<PluginRef Id="778304905"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="1097155889" Name="Material_type" ObjectPath="\Game Parameters\Default Work Unit\Material_type" GUID="{7A33869B-0D53-442B-9016-5FD2241296D2}"/>
+				<GameParameter Id="1198362850" Name="RTPC_TimeoftheDay" ObjectPath="\Game Parameters\Default Work Unit\RTPC_TimeoftheDay" GUID="{122E3D1C-F11B-402B-A859-D4B2DF73A0B3}"/>
+				<GameParameter Id="1294084109" Name="RTPC_RainAMount" ObjectPath="\Game Parameters\Default Work Unit\RTPC_RainAMount" GUID="{A5C238C1-0539-4B70-BFE4-A2790175FE9F}"/>
+				<GameParameter Id="1839481305" Name="Fade_out_reverb" ObjectPath="\Game Parameters\Default Work Unit\Fade_out_reverb" GUID="{BA6847A7-1001-4E4C-AC6E-7BC178269269}"/>
+				<GameParameter Id="1982879522" Name="Step_blender" ObjectPath="\Game Parameters\Default Work Unit\Step_blender" GUID="{45775019-D4E7-44C9-ACEC-A6FEA8406372}"/>
+				<GameParameter Id="2653406601" Name="RTPC_PlayerSpeed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_PlayerSpeed" GUID="{D79C1226-940A-4F88-896D-6D3A61F30095}"/>
+				<GameParameter Id="4182290991" Name="Distance_from_object" ObjectPath="\Game Parameters\Default Work Unit\Distance_from_object" GUID="{097094B8-4419-426B-B2C8-B6269498BF7D}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="33713465" Name="Facility_StackoBot" ObjectPath="\States\Default Work Unit\Facility_StackoBot" GUID="{E6A9C5A9-8C55-4ED2-AE40-A90D691156D1}">
+					<States>
+						<State Id="71202558" Name="Spawn" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Spawn" GUID="{140BE53B-4670-44BF-983F-45BD744248B6}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Facility_StackoBot\None" GUID="{B3BB6709-4DB3-49BE-9B7F-0DA14D868702}"/>
+						<State Id="779278001" Name="Death" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Death" GUID="{2284CD8D-6C25-470B-9076-585DEB899D93}"/>
+						<State Id="1125500713" Name="Intro" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Intro" GUID="{4351EE2A-3C8C-4BDF-97D6-A9C1C74FF502}"/>
+						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Combat" GUID="{4807C893-2282-4B41-B182-ED4694EF782E}"/>
+						<State Id="3551468019" Name="Journey" ObjectPath="\States\Default Work Unit\Facility_StackoBot\Journey" GUID="{0B7BC6B9-DB94-47A8-938E-275D838BDA06}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2453052416" Name="Game_Status" ObjectPath="\States\Default Work Unit\Game_Status" GUID="{89E4872C-C3B4-432B-85C8-1DAC26F1A2F7}">
+					<States>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\Game_Status\Alive" GUID="{2353BC82-BB7C-49FF-A685-A95C8C93386D}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Game_Status\None" GUID="{18338F8C-5228-4A83-B5AC-8D7C2DF5799C}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\Game_Status\Dead" GUID="{5D15A3E1-281D-4CFC-BEC3-717A91583C68}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2608212327" Name="Music_Interaction_Unreal" ObjectPath="\States\Default Work Unit\Music_Interaction_Unreal" GUID="{3512F239-530F-469C-9E26-D2BB8B6838FE}">
+					<States>
+						<State Id="77978275" Name="Ambient" ObjectPath="\States\Default Work Unit\Music_Interaction_Unreal\Ambient" GUID="{BCD92371-BDA4-44CC-8719-F9E2332FA4D0}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_Interaction_Unreal\None" GUID="{051CDFE0-AE47-49F1-A5D7-84412A0667C7}"/>
+						<State Id="779278001" Name="Death" ObjectPath="\States\Default Work Unit\Music_Interaction_Unreal\Death" GUID="{87954516-8259-4990-A0B7-02D81BB79DD8}"/>
+						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\Music_Interaction_Unreal\Victory" GUID="{6C0F5713-A295-4561-A485-EA0F901CFD65}"/>
+						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\Music_Interaction_Unreal\Combat" GUID="{08A5218E-67D2-4612-9043-D49A8E5FE58E}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2789492242" Name="Room_State" ObjectPath="\States\Default Work Unit\Room_State" GUID="{53F382B5-2A77-4B72-85F0-91689C46A69E}">
+					<States>
+						<State Id="144697359" Name="Outdoor" ObjectPath="\States\Default Work Unit\Room_State\Outdoor" GUID="{4FC02424-AC68-48E7-B35E-09DED21FE131}"/>
+						<State Id="340398852" Name="Indoor" ObjectPath="\States\Default Work Unit\Room_State\Indoor" GUID="{D2E7CFE1-710E-41D0-954D-E294E94577E1}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Room_State\None" GUID="{6C705A43-FD4F-4D3A-9818-333C485F1AF2}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3059984139" Name="Tunnel" ObjectPath="\States\Default Work Unit\Tunnel" GUID="{E24E9FE3-7CF8-435D-B0E2-82F8F4EFED88}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Tunnel\None" GUID="{454447FF-BF8D-4D06-863D-D874BD6F573F}"/>
+						<State Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Tunnel\Off" GUID="{92C66735-717B-41DA-A241-8C0970798B42}"/>
+						<State Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Tunnel\On" GUID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3979687176" Name="Area_state" ObjectPath="\States\Default Work Unit\Area_state" GUID="{A316E7E8-A2FF-428E-B038-098528E483C5}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Area_state\None" GUID="{C9B0C573-AB50-4E58-B77A-CC5DA4E9017E}"/>
+						<State Id="1423669920" Name="FarmlandArea3" ObjectPath="\States\Default Work Unit\Area_state\FarmlandArea3" GUID="{12D47C17-5C58-4346-823F-9FCC2CBBDBE7}"/>
+						<State Id="1423669921" Name="FarmlandArea2" ObjectPath="\States\Default Work Unit\Area_state\FarmlandArea2" GUID="{614F5FD1-431A-4059-98A9-6A0814F8C483}"/>
+						<State Id="1423669922" Name="FarmlandArea1" ObjectPath="\States\Default Work Unit\Area_state\FarmlandArea1" GUID="{2CE43F5E-CE75-44AF-A8DC-6836634BFBB4}"/>
+						<State Id="1423669927" Name="FarmlandArea4" ObjectPath="\States\Default Work Unit\Area_state\FarmlandArea4" GUID="{1C23E2A9-A755-49D7-AF41-7C9AE9C75D35}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{A4383945-E03A-4B10-A1BE-5E2E6938F270}">
+					<States>
+						<State Id="77978275" Name="Ambient" ObjectPath="\States\Default Work Unit\Music\Ambient" GUID="{53AF2F66-7FC6-48C7-8AAB-D896211DC8CC}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{C7DB1558-5CD4-44C5-BC1F-D875538363F1}"/>
+						<State Id="779278001" Name="Death" ObjectPath="\States\Default Work Unit\Music\Death" GUID="{7C7C459A-515F-4331-812B-DB364595573A}"/>
+						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\Music\Victory" GUID="{3A7286E3-E982-436E-860D-B79A87295B7C}"/>
+						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\Music\Combat" GUID="{EF8092B0-A8B4-4A28-88DA-DEDB83297C3C}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="748991833" Name="Locomotion_type" ObjectPath="\Switches\Default Work Unit\Locomotion_type" GUID="{F8ACDB02-90C5-4ED6-B4CA-0E7EF2AD3DBC}">
+					<Switches>
+						<Switch Id="340271938" Name="Walking" ObjectPath="\Switches\Default Work Unit\Locomotion_type\Walking" GUID="{3A60C3C0-5DFA-46B9-BECF-EF7539102420}"/>
+						<Switch Id="1296465089" Name="Sprint" ObjectPath="\Switches\Default Work Unit\Locomotion_type\Sprint" GUID="{A5EF257A-12DC-474C-A2DF-51C6612B542A}"/>
+						<Switch Id="2884887403" Name="Sneak" ObjectPath="\Switches\Default Work Unit\Locomotion_type\Sneak" GUID="{1920CD33-1B8B-471F-8250-CD7432ED97E5}"/>
+						<Switch Id="3863236874" Name="Running" ObjectPath="\Switches\Default Work Unit\Locomotion_type\Running" GUID="{5DE474D6-AA87-4582-96FD-B422DBF1A3A0}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1420842295" Name="Footstepmaterial_type" ObjectPath="\Switches\Default Work Unit\Footstepmaterial_type" GUID="{A8F5E1A0-6FB6-4C60-A9F9-E7A4047AB7EF}">
+					<Switches>
+						<Switch Id="2144363834" Name="Rock" ObjectPath="\Switches\Default Work Unit\Footstepmaterial_type\Rock" GUID="{193847C6-9BEE-4F91-AA90-C46A44AF1250}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Footstepmaterial_type\Grass" GUID="{1E266557-5BE3-41D3-9DF5-9F9B65EF7703}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2181999364" Name="AmbBiomType" ObjectPath="\Switches\AmbienceSwitches\AmbBiomType" GUID="{61162E81-DCC3-4D2B-8DEA-95A3A423D546}">
+					<Switches>
+						<Switch Id="491961918" Name="Forest" ObjectPath="\Switches\AmbienceSwitches\AmbBiomType\Forest" GUID="{88E051D1-C8FD-4205-8644-F192616E3D1B}"/>
+						<Switch Id="513139656" Name="Mountain" ObjectPath="\Switches\AmbienceSwitches\AmbBiomType\Mountain" GUID="{FF998F7E-F8C8-4437-9648-A32B8D587B55}"/>
+						<Switch Id="1199171794" Name="Grassland" ObjectPath="\Switches\AmbienceSwitches\AmbBiomType\Grassland" GUID="{A713BBCC-6E7F-4A94-AFA9-02CCF67BE839}"/>
+						<Switch Id="2907906111" Name="Swamp" ObjectPath="\Switches\AmbienceSwitches\AmbBiomType\Swamp" GUID="{66A642CE-ECE9-4B4D-A701-671482A9616A}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2219227717" Name="Time_of_the_day" ObjectPath="\Switches\AmbienceSwitches\Time_of_the_day" GUID="{98951C0E-B09B-46C6-9382-DD8C36E939FC}">
+					<GameParameterRef Id="1198362850"/>
+					<Switches>
+						<Switch Id="390531879" Name="Afternoon" ObjectPath="\Switches\AmbienceSwitches\Time_of_the_day\Afternoon" GUID="{3C1CFE5D-8678-496E-8743-2479036C86AF}"/>
+						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\AmbienceSwitches\Time_of_the_day\Night" GUID="{3AB8DDC1-7860-4922-B1D3-5E9DB6D1FD6D}"/>
+						<Switch Id="1211181101" Name="Midday" ObjectPath="\Switches\AmbienceSwitches\Time_of_the_day\Midday" GUID="{C28BA75E-D8F1-4BD4-AC14-A1DB088F16EE}"/>
+						<Switch Id="1924633667" Name="Morning" ObjectPath="\Switches\AmbienceSwitches\Time_of_the_day\Morning" GUID="{15D62F0C-98A6-43E9-BA32-C5C9A295DAA6}"/>
+						<Switch Id="2905060079" Name="Evening" ObjectPath="\Switches\AmbienceSwitches\Time_of_the_day\Evening" GUID="{2A62A486-F70F-4080-845B-E1B0BD787E53}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4178538517" Name="GroundWetnessSwitches" ObjectPath="\Switches\Default Work Unit\GroundWetnessSwitches" GUID="{18ED7861-BC0D-4493-A52B-A0358C413AF8}">
+					<GameParameterRef Id="1097155889"/>
+					<Switches>
+						<Switch Id="630539344" Name="Dry" ObjectPath="\Switches\Default Work Unit\GroundWetnessSwitches\Dry" GUID="{CA189500-CB32-4735-AA67-B6353997D157}"/>
+						<Switch Id="1181096339" Name="Wet" ObjectPath="\Switches\Default Work Unit\GroundWetnessSwitches\Wet" GUID="{C5523BD9-2C3E-4B81-946D-9CFD757A00F3}"/>
+						<Switch Id="1905651656" Name="Soaked" ObjectPath="\Switches\Default Work Unit\GroundWetnessSwitches\Soaked" GUID="{CC1F68CE-F8A4-456F-B6D3-A9903F4A6646}"/>
+						<Switch Id="2382162035" Name="Dump" ObjectPath="\Switches\Default Work Unit\GroundWetnessSwitches\Dump" GUID="{BC203755-434A-4AF1-9CA4-47C4EC4F2ADD}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A92FE31B-EF46-5196-4636-1920607376EB}</FileHash>
+</SoundBanksInfo>

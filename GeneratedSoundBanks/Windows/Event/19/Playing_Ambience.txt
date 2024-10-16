@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1919845324	Playing_Ambience			\Ambience\Playing_Ambience	
+

@@ -1,0 +1,28 @@
+WAV Files
+
+Path	Format Tag	Num Channels	Channel Mask	Sample Rate	Avg Bytes Per Sec	Block Align	Bit Depth	Num Samples
+
+\SFX\BRS_Concrete_Drags_Mvs_Hits_Deep1.wav	0xFFFE	2	0x00000003	44100	264600	6	24	243200
+\SFX\ESM_Kids_Game_Footsteps_Running_Adult_Concrete_Loop_Dry_Foley.wav	0xFFFE	1	0x00000004	96000	288000	3	24	346776
+\SFX\Forest_Evening.wav	0xFFFE	2	0x00000003	44100	264600	6	24	9022976
+\SFX\Forest_Evening_Quiet.wav	0xFFFE	2	0x00000003	44100	264600	6	24	6563840
+\SFX\ForestMorning.wav	0xFFFE	2	0x00000003	96000	576000	6	24	29567488
+\SFX\Forest_Loop_Tennessee_Day.wav	0xFFFE	2	0x00000003	96000	576000	6	24	3936000
+\SFX\MountainAfternoon.wav	0xFFFE	2	0x00000003	44100	264600	6	24	1466578
+\SFX\MountainMorning.wav	0xFFFE	2	0x00000003	44100	264600	6	24	4498200
+\SFX\MountainNight.wav	0xFFFE	2	0x00000003	44100	264600	6	24	6664704
+\SFX\MountainNightfall.wav	0xFFFE	2	0x00000003	44100	264600	6	24	914578
+\SFX\FS_Grass_Run\Footsteps_Grass_Run.wav	0xFFFE	1	0x00000004	96000	192000	2	16	28800
+\SFX\FS_Grass_Run\Footsteps_Grass_Run_1.wav	0xFFFE	1	0x00000004	96000	192000	2	16	22705
+\SFX\FS_Grass_Run\Footsteps_Grass_Run_2.wav	0xFFFE	1	0x00000004	96000	192000	2	16	31617
+\SFX\FS_Grass_Run\Footsteps_Grass_Run_3.wav	0xFFFE	1	0x00000004	96000	192000	2	16	28800
+\SFX\FS_Grass_Walk\Footsteps_Grass_Walk.wav	0xFFFE	1	0x00000004	96000	192000	2	16	39280
+\SFX\FS_Grass_Walk\Footsteps_Grass_Walk_1.wav	0xFFFE	1	0x00000004	96000	192000	2	16	37720
+\SFX\FS_Grass_Walk\Footsteps_Grass_Walk_2.wav	0xFFFE	1	0x00000004	96000	192000	2	16	35560
+\SFX\FS_Grass_Walk\Footsteps_Grass_Walk_3.wav	0xFFFE	1	0x00000004	96000	192000	2	16	34728
+\SFX\FS_Rock_Run\Footsteps_Rock_Run.wav	0xFFFE	2	0x00000003	96000	384000	4	16	38400
+\SFX\FS_Rock_Run\Footsteps_Rock_Run2.wav	0xFFFE	2	0x00000003	96000	384000	4	16	38400
+\SFX\FS_Rock_Run\Footsteps_Rock_Run3.wav	0xFFFE	2	0x00000003	96000	384000	4	16	38400
+\SFX\FS_Rock_Walk\Footsteps_Rock_Walk.wav	0xFFFE	2	0x00000003	96000	576000	6	24	28349
+\SFX\FS_Rock_Walk\Footsteps_Rock_Walk2.wav	0xFFFE	2	0x00000003	96000	576000	6	24	28327
+\SFX\FS_Rock_Walk\Footsteps_Rock_Walk3.wav	0xFFFE	2	0x00000003	96000	576000	6	24	48300

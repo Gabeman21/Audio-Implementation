@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="119">
+	<ValidationCacheItem File="H:\UE Projects\Virtual Acoustics\Default Work Unit.wwu" DateLow="1711624002" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Triggers\Default Work Unit.wwu" DateLow="1711624004" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Switches\Default Work Unit.wwu" DateLow="1712330512" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Switches\AmbienceSwitches.wwu" DateLow="1714832184" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\States\Default Work Unit.wwu" DateLow="1712330512" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1711624004" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\SoundBanks\Default Work Unit.wwu" DateLow="1711624008" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Queries\Default Work Unit.wwu" DateLow="1711624002" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Presets\Default Work Unit.wwu" DateLow="1711624006" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Modulators\Default Work Unit.wwu" DateLow="1711624006" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Mixing Sessions\Default Work Unit.wwu" DateLow="1711624002" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Metadata\Default Work Unit.wwu" DateLow="1711624002" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1711624006" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1711624004" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Game Parameters\Default Work Unit.wwu" DateLow="1712330512" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Events\Default Work Unit.wwu" DateLow="1711624008" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Events\Ambience.wwu" DateLow="1713375058" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Effects\Default Work Unit.wwu" DateLow="1711624006" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1711624004" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Conversion Settings\Default Work Unit.wwu" DateLow="1711624006" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Control Surface Sessions\Default Work Unit.wwu" DateLow="1711624004" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Audio Implementation Class.wproj" DateLow="1713375058" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Audio Devices\Default Work Unit.wwu" DateLow="1711624008" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Attenuations\Default Work Unit.wwu" DateLow="1711624004" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1712330512" DateHigh="0"/>
+	<ValidationCacheItem File="H:\UE Projects\Actor-Mixer Hierarchy\Ambience.wwu" DateLow="1714832184" DateHigh="0"/>
+</ValidationCache>

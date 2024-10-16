@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1941896084" Type="Bus" GUID="{47AF8553-5BE4-430D-B9FF-AD4F79FFC25C}" Language="SFX" Hash="{E141B3A9-9027-13F9-A438-CD02D8D49762}">
+			<ObjectPath>Room_1</ObjectPath>
+			<ShortName>Room_1</ShortName>
+			<Path>Bus/19/Room_1.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="206373095" Name="Room_reverb" ObjectPath="\Effects\Default Work Unit\Room_reverb" GUID="{2FC8AEB4-1D71-42EF-8C53-520A80BCC2AD}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1941896084" Name="Room_1" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\reverb\Room_1" GUID="{47AF8553-5BE4-430D-B9FF-AD4F79FFC25C}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="206373095"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="1839481305" Name="Fade_out_reverb" ObjectPath="\Game Parameters\Default Work Unit\Fade_out_reverb" GUID="{BA6847A7-1001-4E4C-AC6E-7BC178269269}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A04A4D0C-44B6-80C5-B3B7-A972F11E38EB}</FileHash>
+</SoundBanksInfo>

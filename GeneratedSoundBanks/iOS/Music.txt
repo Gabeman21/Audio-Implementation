@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	77978275	Ambient	Music			
+	748895195	None	Music			
+	779278001	Death	Music			
+	2716678721	Victory	Music			
+	2764240573	Combat	Music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	94830597	Game - Kombat	Y:\Downloads\Audio Implementation Class\.cache\iOS\SFX\Game - Kombat_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music2\Combat\Game - Kombat\Game - Kombat		2116992
+	109682271	Game - Ambience	Y:\Downloads\Audio Implementation Class\.cache\iOS\SFX\Game - Ambience_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music2\Ambient\Game - Ambience\Game - Ambience		2117008
+

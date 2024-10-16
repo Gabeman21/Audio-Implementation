@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "iOS",
+  "BasePlatform": "iOS",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1919845324",
+    "Type": "Event",
+    "GUID": "{94E491A2-F57D-4AD3-BA76-9DBD455F0850}",
+    "Language": "SFX",
+    "Hash": "{59752721-2900-D6BE-0C27-6D46C9245ECD}",
+    "ObjectPath": "Playing_Ambience",
+    "ShortName": "Playing_Ambience",
+    "Path": "Event/19/Playing_Ambience.bnk",
+    "Events": [
+     {
+      "Id": "1919845324",
+      "Name": "Playing_Ambience",
+      "ObjectPath": "\\Events\\Ambience\\Playing_Ambience",
+      "GUID": "{94E491A2-F57D-4AD3-BA76-9DBD455F0850}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DD2D2B84-1465-35EA-AF96-3E8887044452}"
+ }
+}

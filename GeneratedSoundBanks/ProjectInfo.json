@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Audio Implementation Class",
+   "GUID": "{D4268D9D-8D6B-469E-867C-FE5CE57A9950}",
+   "Generator": "2023.1.0.8367"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "iOS",
+    "GUID": "{EB3DF31A-7166-42DF-A054-080A2544DE5E}",
+    "BasePlatform": "iOS",
+    "BasePlatformGUID": "{ECE03DB4-F948-462D-B2BB-A9173012B1F8}",
+    "Path": "iOS"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{C9F05B0B-5DED-461A-A2E2-71EF7A0D6465}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{423C5511-40BC-423A-92BD-D51088E72EB0}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{D5F48EF9-5548-1124-B6DE-870295770002}"
+ }
+}

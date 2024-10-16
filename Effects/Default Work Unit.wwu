@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0826F4EC-219D-407A-9BD4-F9DF80753A70}" SchemaVersion="119">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{0826F4EC-219D-407A-9BD4-F9DF80753A70}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Medium_room_reverb" ID="{E15E0EEE-CD67-4A1A-8755-8C65A94EC0C9}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ERPattern" Type="int32" Value="9"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Large_bright_reverb" ID="{9878655B-AFCA-46B7-8953-83BDFCD5C0D1}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ERPattern" Type="int32" Value="10"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="compressor_tight" ID="{E3BA9C23-0B63-4CD4-B1C4-0BB9A0635E64}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3"/>
+				<Effect Name="compressor_tight_1" ID="{A99355F4-72A8-4354-B83A-C587F345DDCF}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3"/>
+				<Effect Name="Izotope_reverb" ID="{AF6DEEFA-3BF7-40F2-9CB4-000D10B13243}" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3"/>
+				<Effect Name="Room_reverb" ID="{2FC8AEB4-1D71-42EF-8C53-520A80BCC2AD}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ERPattern" Type="int32" Value="9"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_RoomVerb" ID="{71DEC485-F368-439F-B99B-805ECC879255}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ERPattern" Type="int32" Value="9"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

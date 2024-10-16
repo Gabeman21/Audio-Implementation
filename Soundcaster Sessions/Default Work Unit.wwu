@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{900754CE-3EB2-4E77-B986-74925AA3ADF4}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{900754CE-3EB2-4E77-B986-74925AA3ADF4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MainSoundcaster Session" ID="{3BB9ADCC-0B4A-4B57-8C95-D85CEA10A8E9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Running" ID="{0DD0AC6F-4553-4513-9250-5CA781090459}" WorkUnitID="{4ADAC554-99BD-4F07-99F4-D491A56D7BD8}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayerMovement" ID="{50F9E7FC-0B95-4E45-8055-621EC0417B06}" WorkUnitID="{4ADAC554-99BD-4F07-99F4-D491A56D7BD8}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Time_Of_The_Day forest" ID="{9F33485E-83B0-44E8-ADA6-54FB714EC704}" WorkUnitID="{F9924E01-22AC-4EC9-9798-F9D6871389D4}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{60D13D41-CC63-4E0B-BC34-6F5CB0F686CD}" WorkUnitID="{7ACFE0BC-C78C-433F-98DC-BC82466C2D6A}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="FarmlandArea3" ID="{12D47C17-5C58-4346-823F-9FCC2CBBDBE7}"/>
+						<CurrentStateRef Name="On" ID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Grass" ID="{1E266557-5BE3-41D3-9DF5-9F9B65EF7703}"/>
+						<CurrentSwitchRef Name="Forest" ID="{88E051D1-C8FD-4205-8644-F192616E3D1B}"/>
+						<CurrentSwitchRef Name="Running" ID="{5DE474D6-AA87-4582-96FD-B422DBF1A3A0}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1941896084",
+    "Type": "Bus",
+    "GUID": "{47AF8553-5BE4-430D-B9FF-AD4F79FFC25C}",
+    "Language": "SFX",
+    "Hash": "{E141B3A9-9027-13F9-A438-CD02D8D49762}",
+    "ObjectPath": "Room_1",
+    "ShortName": "Room_1",
+    "Path": "Bus/19/Room_1.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "206373095",
+       "Name": "Room_reverb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Room_reverb",
+       "GUID": "{2FC8AEB4-1D71-42EF-8C53-520A80BCC2AD}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1941896084",
+      "Name": "Room_1",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\reverb\\Room_1",
+      "GUID": "{47AF8553-5BE4-430D-B9FF-AD4F79FFC25C}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "206373095"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1839481305",
+      "Name": "Fade_out_reverb",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Fade_out_reverb",
+      "GUID": "{BA6847A7-1001-4E4C-AC6E-7BC178269269}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{15D7F4DE-A962-47E3-7B2F-44D7F97181A6}"
+ }
+}

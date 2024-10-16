@@ -1,0 +1,118 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4184446064",
+    "Type": "Event",
+    "GUID": "{F43C75E3-BC9E-4FE5-B600-8A17FEA01918}",
+    "Language": "SFX",
+    "Hash": "{25AAF8E1-42C1-3DD4-4ABA-A9A7D44968B9}",
+    "ObjectPath": "Play_Interactive_Unreal",
+    "ShortName": "Play_Interactive_Unreal",
+    "Path": "Event/41/Play_Interactive_Unreal.bnk",
+    "Media": [
+     {
+      "Id": "144821065",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Combat-A-Gtr1_138bpm4-4_L8M-P0.wav",
+      "Path": "Media/14/144821065.wem",
+      "CachePath": "SFX/Combat-A-Gtr1_138bpm4-4_L8M-P0_FBC78EF0.wem"
+     },
+     {
+      "Id": "708850543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Forest_Loop_Tennessee_Day.wav",
+      "Path": "Media/70/708850543.wem",
+      "CachePath": "SFX/Forest_Loop_Tennessee_Day_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4184446064",
+      "Name": "Play_Interactive_Unreal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Interactive_Unreal",
+      "GUID": "{F43C75E3-BC9E-4FE5-B600-8A17FEA01918}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2608212327",
+         "Id": "77978275",
+         "GUID": "{BCD92371-BDA4-44CC-8719-F9E2332FA4D0}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "708850543"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2608212327",
+         "Id": "2764240573",
+         "GUID": "{08A5218E-67D2-4612-9043-D49A8E5FE58E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "144821065"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2608212327",
+      "Name": "Music_Interaction_Unreal",
+      "ObjectPath": "\\States\\Default Work Unit\\Music_Interaction_Unreal",
+      "GUID": "{3512F239-530F-469C-9E26-D2BB8B6838FE}",
+      "States": [
+       {
+        "Id": "77978275",
+        "Name": "Ambient",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_Interaction_Unreal\\Ambient",
+        "GUID": "{BCD92371-BDA4-44CC-8719-F9E2332FA4D0}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_Interaction_Unreal\\None",
+        "GUID": "{051CDFE0-AE47-49F1-A5D7-84412A0667C7}"
+       },
+       {
+        "Id": "779278001",
+        "Name": "Death",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_Interaction_Unreal\\Death",
+        "GUID": "{87954516-8259-4990-A0B7-02D81BB79DD8}"
+       },
+       {
+        "Id": "2716678721",
+        "Name": "Victory",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_Interaction_Unreal\\Victory",
+        "GUID": "{6C0F5713-A295-4561-A485-EA0F901CFD65}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_Interaction_Unreal\\Combat",
+        "GUID": "{08A5218E-67D2-4612-9043-D49A8E5FE58E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{343A2747-401F-C5E4-CDB5-9429904BA5C9}"
+ }
+}

@@ -1,0 +1,82 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2219227717	Time_of_the_day			\AmbienceSwitches\Time_of_the_day	
+	4178538517	GroundWetnessSwitches			\Default Work Unit\GroundWetnessSwitches	
+
+Switch	ID	Name	Switch Group			Notes
+	390531879	Afternoon	Time_of_the_day			
+	1011622525	Night	Time_of_the_day			
+	1211181101	Midday	Time_of_the_day			
+	1924633667	Morning	Time_of_the_day			
+	2905060079	Evening	Time_of_the_day			
+	630539344	Dry	GroundWetnessSwitches			
+	1181096339	Wet	GroundWetnessSwitches			
+	1905651656	Soaked	GroundWetnessSwitches			
+	2382162035	Dump	GroundWetnessSwitches			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	33713465	Facility_StackoBot			\Default Work Unit\Facility_StackoBot	
+	2453052416	Game_Status			\Default Work Unit\Game_Status	
+	2608212327	Music_Interaction_Unreal			\Default Work Unit\Music_Interaction_Unreal	
+	2789492242	Room_State			\Default Work Unit\Room_State	
+	3059984139	Tunnel			\Default Work Unit\Tunnel	
+	3979687176	Area_state			\Default Work Unit\Area_state	
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	71202558	Spawn	Facility_StackoBot			
+	748895195	None	Facility_StackoBot			
+	779278001	Death	Facility_StackoBot			
+	1125500713	Intro	Facility_StackoBot			
+	2764240573	Combat	Facility_StackoBot			
+	3551468019	Journey	Facility_StackoBot			
+	655265632	Alive	Game_Status			
+	748895195	None	Game_Status			
+	2044049779	Dead	Game_Status			
+	77978275	Ambient	Music_Interaction_Unreal			
+	748895195	None	Music_Interaction_Unreal			
+	779278001	Death	Music_Interaction_Unreal			
+	2716678721	Victory	Music_Interaction_Unreal			
+	2764240573	Combat	Music_Interaction_Unreal			
+	144697359	Outdoor	Room_State			
+	340398852	Indoor	Room_State			
+	748895195	None	Room_State			
+	748895195	None	Tunnel			
+	930712164	Off	Tunnel			
+	1651971902	On	Tunnel			
+	748895195	None	Area_state			
+	1423669920	FarmlandArea3	Area_state			
+	1423669921	FarmlandArea2	Area_state			
+	1423669922	FarmlandArea1	Area_state			
+	1423669927	FarmlandArea4	Area_state			
+	77978275	Ambient	Music			
+	748895195	None	Music			
+	779278001	Death	Music			
+	2716678721	Victory	Music			
+	2764240573	Combat	Music			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1839481305	Fade_out_reverb			\Default Work Unit\Fade_out_reverb	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	348963605	reverb			\Default Work Unit\reverb	
+	1695690031	Objects			\Default Work Unit\Master Audio Bus\Objects	
+	2016903052	Boxes			\Default Work Unit\Master Audio Bus\Boxes	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Footsteps	
+	3657263530	Verb			\Default Work Unit\Master Audio Bus\Verb	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1941896084	Room_1			\Default Work Unit\reverb\Room_1	
+	1941896087	Room_2			\Default Work Unit\reverb\Room_2	
+	3400062578	Tunnel_Reverb			\Default Work Unit\Master Audio Bus\Verb\Tunnel_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	206373095	Room_reverb	Wwise RoomVerb			
+	227602803	Delay (Custom)	Wwise Delay			
+	742287479	Room_reverb (Custom)	Wwise RoomVerb			
+	778304905	Stereo Delay (Custom)	Wwise Stereo Delay			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

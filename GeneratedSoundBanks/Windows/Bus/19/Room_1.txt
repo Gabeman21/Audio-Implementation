@@ -1,0 +1,9 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1839481305	Fade_out_reverb			\Default Work Unit\Fade_out_reverb	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1941896084	Room_1			\Default Work Unit\reverb\Room_1	
+
+Effect plug-ins	ID	Name	Type				Notes
+	206373095	Room_reverb	Wwise RoomVerb			
+

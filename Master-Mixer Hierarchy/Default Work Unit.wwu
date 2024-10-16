@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7ACFE0BC-C78C-433F-98DC-BC82466C2D6A}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{7ACFE0BC-C78C-433F-98DC-BC82466C2D6A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{19444DEC-CB16-4368-B952-8F68C8F70311}" WorkUnitID="{6DDA1308-C8CF-43B4-818A-A1C6612F028B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Footsteps" ID="{60D13D41-CC63-4E0B-BC34-6F5CB0F686CD}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Tunnel_Reverb" ID="{0642CEE5-1567-492A-8F97-BD018E1603F1}" WorkUnitID="{7ACFE0BC-C78C-433F-98DC-BC82466C2D6A}"/>
+								</Reference>
+							</ReferenceList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Objects" ID="{16B6EAAD-5CD4-436A-96C3-AAAD95A941F8}"/>
+									<DuckingParam>
+										<Volume>-19</Volume>
+										<FadeInTime>1.5</FadeInTime>
+										<FadeOutTime>1.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Objects" ID="{16B6EAAD-5CD4-436A-96C3-AAAD95A941F8}"/>
+						<Bus Name="Boxes" ID="{2F01AB21-0666-4D8C-9F01-8DF88C5079F4}"/>
+						<Bus Name="Verb" ID="{89230997-D2A9-4AB3-9BFB-A447F1A9B3C5}">
+							<ChildrenList>
+								<AuxBus Name="Tunnel_Reverb" ID="{0642CEE5-1567-492A-8F97-BD018E1603F1}">
+									<StateInfo>
+										<StatePropertyList>
+											<Property Name="BusVolume"/>
+											<Property Name="EnableAttenuation"/>
+											<Property Name="GameAuxSendHPF"/>
+											<Property Name="GameAuxSendLPF"/>
+											<Property Name="OutputBusLowpass"/>
+										</StatePropertyList>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Tunnel" ID="{E24E9FE3-7CF8-435D-B0E2-82F8F4EFED88}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Off" ID="{92C66735-717B-41DA-A241-8C0970798B42}"/>
+												<CustomState Name="" ID="{AB5537BF-7629-4906-AC1A-2DFA2BF93824}" ShortID="672785014">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="On" ID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+												<CustomState Name="" ID="{78D3B57B-D873-4271-BDF6-D2C19ED97F09}" ShortID="536202099">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{AE6151FE-53C4-4E3A-A4A7-C08040E310E6}" ShortID="274923835">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom CreatedFrom="{2FC8AEB4-1D71-42EF-8C53-520A80BCC2AD}">
+																	<Effect Name="Room_reverb (Custom)" ID="{DDAB7997-0F9A-4181-AB82-BC15D6942FBC}" ShortID="742287479" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<PropertyList>
+																			<Property Name="Density" Type="Real32" Value="100"/>
+																			<Property Name="ERPattern" Type="int32" Value="9"/>
+																			<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="Off" ID="{92C66735-717B-41DA-A241-8C0970798B42}"/>
+																	<CustomState Name="" ID="{94CE69C1-2271-474F-BF7C-6A5A59BE10C9}" ShortID="709635797"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="On" ID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+																	<CustomState Name="" ID="{B49AEE34-E0F3-445A-9D8A-4B9CD2FF1F13}" ShortID="614394426"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{4F68C3FC-B1DC-4C25-B233-F5B4912C58E6}" ShortID="540084625">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Stereo Delay (Custom)" ID="{00D4772A-58E1-48FD-A96A-CDED6543AAAB}" ShortID="778304905" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3"/>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="Off" ID="{92C66735-717B-41DA-A241-8C0970798B42}"/>
+																	<CustomState Name="" ID="{74BCB1CF-2FC3-40C5-869A-26A50EB26A14}" ShortID="948620133"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="On" ID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+																	<CustomState Name="" ID="{CEE6A5F2-0E7B-4EBC-AE09-1B121CDC63E1}" ShortID="193467741"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{BA6393A4-E976-4D8A-A006-625D2F74C247}" ShortID="136476789">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Delay (Custom)" ID="{DBD48945-73D7-49FA-9D2E-17CFFB4A3CCC}" ShortID="227602803" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="Off" ID="{92C66735-717B-41DA-A241-8C0970798B42}"/>
+																	<CustomState Name="" ID="{BC79482A-F085-41FA-B63B-A5D3C50500C1}" ShortID="326878353"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="On" ID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+																	<CustomState Name="" ID="{CFBBCAB3-D0E4-4E97-8D74-5BDBDA29854F}" ShortID="941739699"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Tunnel" ID="{E24E9FE3-7CF8-435D-B0E2-82F8F4EFED88}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Off" ID="{92C66735-717B-41DA-A241-8C0970798B42}"/>
+								<CustomState Name="" ID="{FE1A2DC2-E518-493F-B246-179BA98F7B68}" ShortID="800287561"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="On" ID="{F6298961-132C-4E10-8396-31221BB7F15C}"/>
+								<CustomState Name="" ID="{19868BF3-FC23-4FD6-8606-9E71EE49CD43}" ShortID="346003362"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</Bus>
+				<Bus Name="reverb" ID="{4AFB4655-8B32-49E1-9DF1-DF954397A72F}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{19444DEC-CB16-4368-B952-8F68C8F70311}" WorkUnitID="{6DDA1308-C8CF-43B4-818A-A1C6612F028B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Room_2" ID="{929ECE90-8123-4042-BCDC-7E09D1E1DEF4}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{412FC3B6-F5AA-4808-97DE-9A25E78F2B46}" ShortID="943762224">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_reverb" ID="{2FC8AEB4-1D71-42EF-8C53-520A80BCC2AD}" WorkUnitID="{0826F4EC-219D-407A-9BD4-F9DF80753A70}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="Room_1" ID="{47AF8553-5BE4-430D-B9FF-AD4F79FFC25C}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{BDE62897-06FD-408C-BC73-706481F70D16}" ShortID="542442023">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_reverb" ID="{2FC8AEB4-1D71-42EF-8C53-520A80BCC2AD}" WorkUnitID="{0826F4EC-219D-407A-9BD4-F9DF80753A70}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{CD1C70E4-8B42-49F1-8FD1-8158BF0FDD5D}" ShortID="373596182">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="CenterPercentage"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Fade_out_reverb" ID="{BA6847A7-1001-4E4C-AC6E-7BC178269269}" WorkUnitID="{56C75317-9140-44BC-B617-849473188AF5}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{F261BBDA-9287-4CE9-8E3C-E01D0CFD14FD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>100</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{69E29FEF-30EE-43EE-B6A9-9BA513795580}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{69E29FEF-30EE-43EE-B6A9-9BA513795580}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_fs" ID="{00CAF74F-043D-4D23-B9E9-98E6CBA839CD}">
+					<ChildrenList>
+						<Action Name="" ID="{DCE52C21-9260-4F97-A178-FDDE40BF4F9F}" ShortID="96290425">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footsteps" ID="{B2843200-AB55-4D41-8D88-D78AA34916C2}" WorkUnitID="{FE3EB2E9-A86E-40F1-A21E-B68AACE97421}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

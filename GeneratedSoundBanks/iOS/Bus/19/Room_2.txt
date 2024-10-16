@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1941896087	Room_2			\Default Work Unit\reverb\Room_2	
+
+Effect plug-ins	ID	Name	Type				Notes
+	206373095	Room_reverb	Wwise RoomVerb			
+
