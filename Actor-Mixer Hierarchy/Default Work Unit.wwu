@@ -142,50 +142,6 @@
 												<ActiveSource Name="Footsteps_Grass_Run_2" ID="{6AEB465B-A7F2-4548-BDDF-78B86EE906C0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Footsteps_Grass_Run_2" ID="{CC217D6E-90B3-4E0B-91AA-52F40816750A}" ShortID="123362205">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D7CF645-0906-40D0-8783-774733345B46}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ACFE0BC-C78C-433F-98DC-BC82466C2D6A}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Footsteps_Grass_Run_2" ID="{B556365F-2933-49A4-8FB6-F8AD60CA2213}">
-													<Language>SFX</Language>
-													<AudioFile>FS_Grass_Run\Footsteps_Grass_Run_2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="980561750"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Footsteps_Grass_Run_2" ID="{B556365F-2933-49A4-8FB6-F8AD60CA2213}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Footsteps_Grass_Run_3" ID="{BFB73BE7-2221-4608-9DEB-460F6971BB8D}" ShortID="97405108">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D7CF645-0906-40D0-8783-774733345B46}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ACFE0BC-C78C-433F-98DC-BC82466C2D6A}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Footsteps_Grass_Run_3" ID="{D7AD5B58-F837-4FF5-9D0F-360D5C544440}">
-													<Language>SFX</Language>
-													<AudioFile>FS_Grass_Run\Footsteps_Grass_Run_3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="918148749"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Footsteps_Grass_Run_3" ID="{D7AD5B58-F837-4FF5-9D0F-360D5C544440}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<RandomSequenceContainer Name="Alternate steps" ID="{BD928461-D111-45DB-9A6C-881D807373FC}" ShortID="930576272">
 											<PropertyList>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
